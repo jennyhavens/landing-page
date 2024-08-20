@@ -5,7 +5,43 @@ body {
 }
 
 .header {
-    background-color: rgb(253, 213, 35);
+    background-color: rgb(247, 195, 7);
+    display: flex;
+    flex-direction: column;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px black;
+    gap: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .container {
@@ -13,11 +49,11 @@ body {
 }
 
 .signup {
-    background-color: rgb(15, 142, 15);
+    background-color: rgb(10, 135, 157);
 }
 
 .footer {
-    background-color: rgb(253, 213, 35);
+    background-color: rgb(247, 195, 7);
     display: flex;
     justify-content: center;
     align-items: center;
