@@ -2,10 +2,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-    background-color: rgb(247, 195, 7);
+    background-color: rgb(10, 135, 157);
     display: flex;
     flex-direction: column;
 }
@@ -39,21 +41,46 @@ a {
     color: #E5E7EB;
 }
 
+.information {
+    text-align: center;
+}
+
+img {
+    border-radius: 30px;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.pets {
+   max-width: 150px;
+}
+
+.information {
+    text-align: center;
+}
+
 p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .container {
-    background-color: rgb(248, 232, 164);
+    background-color: rgb(97, 196, 214);
 }
 
 .signup {
-    background-color: rgb(10, 135, 157);
+    background-color: rgb(247, 195, 7);
 }
 
 .footer {
-    background-color: rgb(247, 195, 7);
+    background-color: rgb(10, 135, 157);
     display: flex;
     justify-content: center;
     align-items: center;
