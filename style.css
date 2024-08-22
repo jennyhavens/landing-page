@@ -18,7 +18,7 @@ body {
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 15px;
 
 }
 
@@ -31,7 +31,7 @@ body {
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 4px black;
-    margin-right: 400px;
+    margin-right: 525px;
 }
 
 ul {
@@ -40,7 +40,7 @@ ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
-    font-size: 28px;
+    font-size: 20px;
     text-shadow: 2px 2px 4px black;
     gap: 40px;
 }
@@ -53,16 +53,23 @@ a {
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto; 
-    padding: 150px;
+    padding: 100px;
     flex-wrap: wrap;
     gap: 50px;
 }
 
 h1 {
     font-size: 45px;
+    color:rgb(247, 195, 7);
     padding: 0;
     margin: 0;
+}
+
+.header-text {
+    font-size: 20px;
+    color: #E5E7EB;
 }
 
 .content {
@@ -73,10 +80,14 @@ h1 {
 }
 
 button {
-    padding: 5px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-radius: 10px;
     cursor: pointer;
-    max-width: 100px;
+    max-width: 150px;
 
 }
 
@@ -93,6 +104,15 @@ button {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .pets img {
@@ -100,6 +120,10 @@ button {
     object-fit: cover;
     width: 250px;
     height: 250px;
+}
+
+.adventure {
+    object-position: 0 25%;
 }
 
 .images {
@@ -113,22 +137,90 @@ button {
    max-width: 250px;
 }
 
-p {
-    font-size: 18px;
-    color: #E5E7EB;
+.text {
+    font-size: 20px;
+    padding: 20px;
 }
 
-.container {
+.quote-container {
     background-color: rgb(97, 196, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
 }
 
-.signup {
+.quote-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 32px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.name {
+    font-size: 20px;
+    text-align: right;
+}
+
+.action-section {
+    display: flex;
+    margin: 0 auto;
+    padding: 100px;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 15px;
+    max-width: 800px;
     background-color: rgb(247, 195, 7);
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto; 
+    text-align: left;
+}
+
+.action-words {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    gap: 30px;
+    max-width: 600px;
+}
+
+.action-message {
+    font-size: 18px;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.action-button {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 220px;
 }
 
 .footer {
     background-color: rgb(10, 135, 157);
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
